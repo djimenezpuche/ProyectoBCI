@@ -8,6 +8,12 @@ se calculan las potencias para cada rango de frecuencias EEG y finalmente, se gr
     - RaspberryPi Model 3B (u otra con características similares)
     - Módulo conversión AD/DA (High Precision AD/DA Board) fabricante Waveshare https://www.waveshare.com/wiki/High-Precision_AD/DA_Board
 
+Organización del repositorio:
+    - Carpeta código: contiene los scripts desarrollados
+    - Carpeta vídeo: contiene el fichero de metraje y el vídeo
+    - Carpeta Resultados: contiene los resultados obtenidos en los experimentos
+    - Carpeta High-Precision-AD-DA-Board-Code: contiene el directorio de carpetas tal y como se descarga de la página del fabricante. Los scripts incluidos en RaspberryPi-->ADS1256-->Python3 son los desarrollados para el proyecto (incluidos también en la carpeta "código"). Explicación más abajo.
+
 Pasos a seguir:
 1. Descargar el código proporcionado por el fabricante Waveshare (https://www.waveshare.com/wiki/File:High-Precision-AD-DA-Board-Code.7z)
 2. Descomprimir
@@ -25,7 +31,7 @@ Los archivos utilizados para el funcionamiento del proyecto son los siguientes:
 - PC_communication.py - Establece la comunicación con RPi, recoge las señales adquiridas y las procesa mediante diferentes filtros
 - power_freqs_processing.py - Realiza el cálculo de las potencias máximas para cada rango de frecuencia y lleva a cabo varias representaciones.
 
-Los tres primeros ( ADS1256_ContMode, config.py y rpi_communication.py) se ejecutan en la RPi. (Colocar en el mismo directorio)
+Los tres primeros ( ADS1256_ContMode, config.py y rpi_communication.py) se ejecutan en la RPi. (Colocar en el mismo directorio en RPi)
 Los dos últimos (PC_communication.py y power_freqs_processing.py) se ejecutan en el PC. (Colocar en el mismo directorio junto con el fichero de metraje del vídeo.)
 
 Ejecución del proyecto:
