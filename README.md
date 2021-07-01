@@ -9,10 +9,10 @@ se calculan las potencias para cada rango de frecuencias EEG y finalmente, se gr
     - Módulo conversión AD/DA (High Precision AD/DA Board) fabricante Waveshare https://www.waveshare.com/wiki/High-Precision_AD/DA_Board
 
 Organización del repositorio:
-    - Carpeta código: contiene los scripts desarrollados
-    - Carpeta vídeo: contiene el fichero de metraje y el vídeo
-    - Carpeta Resultados: contiene los resultados obtenidos en los experimentos
-    - Carpeta High-Precision-AD-DA-Board-Code: contiene el directorio de carpetas tal y como se descarga de la página del fabricante. Los scripts incluidos en RaspberryPi-->ADS1256-->Python3 son los desarrollados para el proyecto (incluidos también en la carpeta "código"). Explicación más abajo.
+- Carpeta código: contiene los scripts desarrollados
+- Carpeta vídeo: contiene el fichero de metraje y el vídeo
+- Carpeta Resultados: contiene los resultados obtenidos en los experimentos
+- Carpeta High-Precision-AD-DA-Board-Code: contiene el directorio de carpetas tal y como se descarga de la página del fabricante. Los scripts incluidos en RaspberryPi-->ADS1256-->Python3 son los desarrollados para el proyecto (incluidos también en la carpeta "código"). Explicación más abajo.
 
 Pasos a seguir:
 1. Descargar el código proporcionado por el fabricante Waveshare (https://www.waveshare.com/wiki/File:High-Precision-AD-DA-Board-Code.7z)
