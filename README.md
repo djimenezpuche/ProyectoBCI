@@ -44,3 +44,4 @@ Ficheros adjuntos:
   - Resultados para 5 sujetos. 
   - Ficheros con nombre sujetox.txt --> Datos de salida del script PC_communication.py
   - Ficheros con nombre sujetox_pf.txt --> Datos de salida del script power_freqs_processing.py
+  - Vídeo utilizado para los experimentos (Imágenes de los vídeos obtenidas de: https://www.flaticon.es/packs/people-2?k=1612308449169  - Iconos diseñados por            https://www.freepik.com )
